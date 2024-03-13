@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <style>
+        #main {
+          width: 300px;
+          height: 100px;
+          border: 1px solid #c3c3c3;
+          display: flex;
+          flex-wrap: wrap;
+        }
+        
+        
+        
+        #main div:nth-of-type(2) {
+          flex-basis: 100px;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h1>The flex-basis Property</h1>
+        
+        <p>Set the initial length of the flex items to 50 pixels, with an exception; set the initial length of the second flex item to 100 pixels:</p>
+        <div id="main">
+          <div style="background-color:coral;">50px</div>
+          <div style="background-color:lightblue;">50</div>
+          <div style="background-color:khaki;">50px</div>
+          <div style="background-color:pink;">50px</div>
+          <div style="background-color:lightgrey;">50px</div>
+        </div>
+        
+        <p><b>Note:</b> Internet Explorer 10 and earlier versions do not support the flex-basis property.</p>
+
+
+</body>
+</html>
